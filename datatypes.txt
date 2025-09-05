@@ -1,0 +1,78 @@
+            JS Data Types
+  Data types as different categories of information that your program can work with, like having different containers for different kinds of items in your kitchen.JavaScript needs to know what kind of information you’re working with so it can handle it appropriately. Just as you wouldn’t store soup in a colander, JavaScript treats different types of data differently. 
+
+
+JavaScript Data Type Categories
+                               1. Primitive 
+                               2.Non-Primitive types
+
+Primitive Data Type
+In JavaScript, a primitive value is a single value with no properties or methods.
+
+Primitive has 7 primitive data types:
+* numbers
+* bigInt
+* string
+* boolean
+* null
+* undefind
+* symbol
+
+Numbers
+         In JavaScript, all numbers are treated the same way, whether they’re whole numbers or decimals. Unlike some other programming languages, you don’t need to specify whether you’re working with integers or floating-point numbers.
+Examples
+let age = 25;
+let height = 5.4;
+Let temperature = -5; 
+
+BigInt
+      For extremely large numbers that exceed JavaScript’s normal number limits, BigInt provides a way to work with arbitrarily large integer
+Strings
+Strings represent text data — any sequence of characters wrapped in quotes. You can use single quotes, double quotes to create strings.
+Examples
+let name = “KeziaSanub”;
+let message = ‘Hello world’ ;
+Let temperature = -5;
+
+Booleans
+they can only be true or false. They’re essential for making decisions in your code.
+Examples
+let isloggedIn = true;
+Let haspermission =false;
+
+Undefined and Null 
+undefined means a variable has been declared but hasn’t been given a value yet. 
+null is an intentional absence of value — you explicitly set something to nothing.
+Examples
+let unassigned;     //undefined
+Let empty =null;   //intentionally empty…we can’t give any value for that
+
+Non-primitive Data Types
+                           They can store collections of values or more complex entities.
+ There are 2 types
+1.  Object
+2.  Arrays
+
+Object
+       Objects in JavaScript are collections of properties, where each property is a key-value pair. Objects are useful for grouping related data and functionalities. Properties can be added, modified, or deleted, and objects can also contain functions as methods. Object involves using {}
+
+Example
+           let KeziaFasion = {
+                              type: "Botique",
+                              location: "Chennai"
+                               }
+               console.log(KeziaFasion.type)
+Output
+Botique
+
+
+
+Arrays
+     In JavaScript, an array is an ordered list of values. Each value, known as an element, is assigned a numeric position in the array called its index. The indexing starts at 0, so the first element is at position 0, the second at position 1, and so on. Arrays can hold any type of data—such as numbers, strings, objects, or even other arrays—making them a flexible and essential part of JavaScript programming.array literal involves using square brackets [] 
+
+Example
+let person = {firstName:"John", lastName:"Doe", age:46};
+let cars = ["Saab", "Volvo", "BMW",person.firstName];
+console.log( cars);
+Output
+Saab,Volvo,BMW,John
